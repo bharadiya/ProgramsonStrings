@@ -10,7 +10,6 @@ public class FindVowels {
 					return true;
 				}
 			}
-
 		}
 		return false;
 	}
