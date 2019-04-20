@@ -13,10 +13,10 @@ public class TandemReapeat {
 			}
 			break;
 		}
-		return Pattern.compile("("+t+")\\1{1,}").matcher(a).find();
+		return Pattern.compile("(" + t + "){1}\\1{1}[^a-zA-Z0-9\\w\\W]{1,}").matcher(a).find();
 	}
 
 	public static void main(String[] args) {
-		System.out.println(isTandemRepeat("qqq"));
+		System.out.println(isTandemRepeat("tandemtandem"));
 	}
 }
