@@ -31,6 +31,6 @@ public class IsIPV4Address {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(isIPv4Address("129380129831213981.255.255.255"));
+		System.out.println(isIPv4Address("2525515659565959562659859522595955.255.255.255"));
 	}
 }
