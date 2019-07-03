@@ -30,6 +30,6 @@ public class BuildPalindrome {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(buildPalindrome("abcdc"));
+		System.out.println(buildPalindrome("@#$.%fg1230"));
 	}
 }
