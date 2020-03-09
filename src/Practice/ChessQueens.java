@@ -7,7 +7,7 @@ public class ChessQueens {
 	public static boolean areQueensAttacking(String w, String b) {
 		int[] x = getCordinates(w);
 		int[] y = getCordinates(b);
-		return (Math.abs(x[0] - x[1]) == Math.abs(y[0] - y[1])) || (x[0] != y[0] && x[1] == y[1])
+		return (Math.abs(x[0] - y[0]) == Math.abs(x[1] - y[1])) || (x[0] != y[0] && x[1] == y[1])
 				|| (x[0] == y[0] && x[1] != y[1]);
 	}
 
